@@ -4,84 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>不思議な領事館</title>
+    <link rel="stylesheet" href="assets/scss/resetcss.css">
+    <link rel="stylesheet" href="assets/scss/style.css">
+    <script>
+        (function(d) {
+          var config = {
+            kitId: 'fsj8yqc',
+            scriptTimeout: 3000,
+            async: true
+          },
+          h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+        })(document);
+      </script>
 </head>
 <body>
-    
-    <header>
-        <h1>
-            神戸トリックアート<br>
-            不思議な領事館
-        </h1>
-        <div>
-            <h2>
-                営業時間
-            </h2>
-            <p>10:00 - 18:00</p>
-        </div>
-    </header>
-
-    <article>
-        
-        <section>
-            <h2>不思議な世界へようこそ</h2>
-            <p>
-                見て、触れて、写真を撮る<br>
-                錯覚の世界で新たな驚きを体験し、<br>
-                その面白さを友だちと共有しよう。<br>
-                あなたにピッタリの、<br>
-                ワクワクする体験がここにあります！
-            </p>
+    <section id="content">
+        <header>
+            <button class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </button>
+        </header>
+        <section class="mv">
+            <div class="main_hito"><img src="assets/img/main_hito.png" alt=""></div>
+            <h1>
+                <img src="assets/img/title.png" alt="神戸トリックアート不思議な領事館">
+            </h1>
+            <div class="zusshiri">
+                <p class="zu">ず</p>
+                <p class="ltu">っ</p>
+                <p class="shi">し</p>
+                <p class="ri">り</p>
+                <p class="bikkuri">！</p>
+            </div>
         </section>
 
-        <section>
-            <h2>
-                NEWS
-            </h2>
-            <div>
-                <h3>
-                    Newsタイトル
-                </h3>
-                <p>
-                    説明文
-                </p>
-            </div>            
-        </section>
-
-        <section>
-            <h2>
-                アクセス
-            </h2>
-            <div>
-                <div>
-                    <!-- グーグルMAPが入る予定 -->
+        <article>
+            
+            <section>
+                <div class="time">
+                    <h2>
+                        営業時間
+                    </h2>
+                    <p>10:00 - 18:00</p>
                 </div>
-                <address>
+                <h2>不思議な世界へようこそ</h2>
+                <p>
+                    見て、触れて、写真を撮る<br>
+                    錯覚の世界で新たな驚きを体験し、<br>
+                    その面白さを友だちと共有しよう。<br>
+                    あなたにピッタリの、<br>
+                    ワクワクする体験がここにあります！
+                </p>
+            </section>
+
+            <section>
+                <h2>
+                    NEWS
+                </h2>
+                <div>
+                    <h3>
+                        Newsタイトル
+                    </h3>
                     <p>
-                        〒650-0002<br>
-                        兵庫県神戸市中央区北野町3-5-4<br>
-                        TEL.0120-888581<br>
-                        FAX.078-241-5537
+                        説明文
                     </p>
-                </address>
-            </div>
-        </section>
+                </div>            
+            </section>
 
-    </article>
+            <section>
+                <h2>
+                    アクセス
+                </h2>
+                <div>
+                    <div>
+                        <!-- グーグルMAPが入る予定 -->
+                    </div>
+                    <address>
+                        <p>
+                            〒650-0002<br>
+                            兵庫県神戸市中央区北野町3-5-4<br>
+                            TEL.0120-888581<br>
+                            FAX.078-241-5537
+                        </p>
+                    </address>
+                </div>
+            </section>
 
-    <footer>
-        <div>
-            <h2>
-                <!-- ロゴ -->
-            </h2>
+        </article>
+
+        <footer>
             <div>
-                <!-- SNS -->
+                <h2>
+                    <!-- ロゴ -->
+                </h2>
+                <div>
+                    <!-- SNS -->
+                </div>
             </div>
-        </div>
-        <div>
-            <nav>
-                <!-- サイトマップ -->
-            </nav>
-        </div>
-    </footer>
+            <div>
+                <nav>
+                    <!-- サイトマップ -->
+                </nav>
+            </div>
+        </footer>
+    </section>
 </body>
 </html>
